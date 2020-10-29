@@ -5,3 +5,7 @@ public class Rule1 {
 
     }
 }
+
+class GenericClass1 {
+
+}
