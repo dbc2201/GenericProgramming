@@ -29,3 +29,7 @@ double -> `java.lang.Double`
 char -> `java.lang.Character`
 boolean -> `java.lang.Boolean`
 
+2. The Generic Types are different according to their type arguments.
+If there is a reference variable of a generic class, with type argument `T1`,
+then it is not necessary that it will be compatible with another reference variable
+of the same generic class, but with a different type argument `T2`.
