@@ -7,5 +7,13 @@ public class Rule1 {
 }
 
 class GenericClass1<T> {
+    private final T field;
 
+    public GenericClass1(T field) {
+        this.field = field;
+    }
+
+    public T getField() {
+        return field;
+    }
 }
